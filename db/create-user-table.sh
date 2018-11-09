@@ -4,6 +4,6 @@
 # These settings will work for US West (Oregon)
 # profile is from ~/.aws/credentials
 aws dynamodb create-table --cli-input-json file://./user-table.json \
---endpoint-url "http://dynamodb.us-west-2.amazonaws.com" \
---region "us-west-2" \
+--endpoint-url "http://dynamodb.ap-southeast-1.amazonaws.com" \
+--region "ap-southeast-1" \
 --profile default
